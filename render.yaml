@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: studenthub-backend
-    runtime: java
-    buildCommand: ./mvnw clean package -DskipTests
-    startCommand: java -jar target/*.jar
